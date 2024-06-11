@@ -1,13 +1,487 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
   <title>Practice</title>
 </head>
-<body>
 
-  <!-- сюда добавить скриншот о пройденном курсе на https://htmlacademy.ru/courses/basic-html-css -->
-  
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a class="header__logo" href="#">
+            <img src="images/logo.svg" alt="Logo">
+          </a>
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#">Вклады</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#">Кредиты</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#">Займы</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#">Карты</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#">Ипотека</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#">Страхование</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#">Инвестиции</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#">Бизнес</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#">Новости</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#">Ещё</a>
+              </li>
+            </ul>
+            <div class="nav-box">
+              <a class="nav-box__link" href="#"><img src="images/map-point.svg" alt="map-point"></a>
+              <a class="nav-box__link" href="#"><img src="images/exit.svg" alt="Exit"></a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="top">
+        <div class="container">
+          <div class="top__inner">
+            <div class="top__content">
+              <h2 class="top__title section__title">
+                Поможем подобрать вклады по вашим потребностям
+              </h2>
+              <p class="top__text">
+                Fusce porta auctor bibendum. Donec convallis tellus risus, pharetra facilisis leo bibendum eget. Ut sit
+                amet commodo nunc. Phasellus hendrerit, dui quis mollis eleifend, lacus mauris accumsan lacus, ac cursus
+                mi augue a justo. Aliquam erat volutpat. 
+              </p>
+            </div>
+            <img src="images/wallet.png" alt="Wallet">
+          </div>
+        </div>
+      </section>
+      <article class="contributions">
+        <div class="container">
+          <section class="contributions__content">
+            <h2 class="contributions__title section__title">Вклады для души</h2>
+            <p class="contributions__text">Fusce porta auctor bibendum. Donec convallis tellus risus, pharetra facilisis
+              leo bibendum eget. Ut sit amet commodo nunc. Phasellus hendrerit, dui quis mollis eleifend, lacus
+            </p>
+            <ul class="offer-list">
+              <li class="offer-list__item">
+                <div class="offer-list__box">
+                  <img src="images/bank.svg" alt="bank" class="offer-list__img">
+                  <p class="offer-list__text">Свои правила с Банки.ру</p>
+                </div>
+                <div class="offer-list__info">
+                  <div class="offer-list__row">
+                    <div class="offer-list__key">Cтавка, %</div>
+                    <div class="offer-list__value offer-list__value--strong">от 9,3%</div>
+                  </div>
+                  <div class="offer-list__row">
+                    <div class="offer-list__key">Срок</div>
+                    <div class="offer-list__value">181 дн.</div>
+                  </div>
+                  <div class="offer-list__row">
+                    <div class="offer-list__key">Сумма</div>
+                    <div class="offer-list__value">30 000—10 000 000 ₽</div>
+                  </div>
+                </div>
+                <a href="#" class="offer-list__btn">Открыть вклад</a>
+              </li>
+              <li class="offer-list__item">
+                <div class="offer-list__box">
+                  <img src="images/bank.svg" alt="bank" class="offer-list__img">
+                  <p class="offer-list__text">Свои правила с Банки.ру</p>
+                </div>
+                <div class="offer-list__info">
+                  <div class="offer-list__row">
+                    <div class="offer-list__key">Cтавка, %</div>
+                    <div class="offer-list__value offer-list__value--strong">от 9,3%</div>
+                  </div>
+                  <div class="offer-list__row">
+                    <div class="offer-list__key">Срок</div>
+                    <div class="offer-list__value">181 дн.</div>
+                  </div>
+                  <div class="offer-list__row">
+                    <div class="offer-list__key">Сумма</div>
+                    <div class="offer-list__value">30 000—10 000 000 ₽</div>
+                  </div>
+                </div>
+                <a href="#" class="offer-list__btn">Открыть вклад</a>
+              </li>
+              <li class="offer-list__item">
+                <div class="offer-list__box">
+                  <img src="images/bank.svg" alt="bank" class="offer-list__img">
+                  <p class="offer-list__text">Свои правила с Банки.ру</p>
+                </div>
+                <div class="offer-list__info">
+                  <div class="offer-list__row">
+                    <div class="offer-list__key">Cтавка, %</div>
+                    <div class="offer-list__value offer-list__value--strong">от 9,3%</div>
+                  </div>
+                  <div class="offer-list__row">
+                    <div class="offer-list__key">Срок</div>
+                    <div class="offer-list__value">181 дн.</div>
+                  </div>
+                  <div class="offer-list__row">
+                    <div class="offer-list__key">Сумма</div>
+                    <div class="offer-list__value">30 000—10 000 000 ₽</div>
+                  </div>
+                </div>
+                <a href="#" class="offer-list__btn">Открыть вклад</a>
+              </li>
+              <li class="offer-list__item">
+                <div class="offer-list__box">
+                  <img src="images/bank.svg" alt="bank" class="offer-list__img">
+                  <p class="offer-list__text">Я очень длинное название уберите …</p>
+                </div>
+                <div class="offer-list__info">
+                  <div class="offer-list__row">
+                    <div class="offer-list__key">Cтавка, %</div>
+                    <div class="offer-list__value offer-list__value--strong">от 9,3%</div>
+                  </div>
+                  <div class="offer-list__row">
+                    <div class="offer-list__key">Срок</div>
+                    <div class="offer-list__value">181 дн.</div>
+                  </div>
+                  <div class="offer-list__row">
+                    <div class="offer-list__key">Сумма</div>
+                    <div class="offer-list__value">30 000—10 000 000 ₽</div>
+                  </div>
+                </div>
+                <a href="#" class="offer-list__btn">Открыть вклад</a>
+              </li>
+            </ul>
+          </section>
+          <section class="contributions__content">
+            <h2 class="contributions__title section__title">Вклады с повышенным процентом</h2>
+            <p class="contributions__text">On the other hand, we denounce with righteous indignation and dislike men who
+              are so
+            </p>
+            <ul class="offer-list">
+              <li class="offer-list__item">
+                <div class="offer-list__box">
+                  <img src="images/bank.svg" alt="bank" class="offer-list__img">
+                  <p class="offer-list__text">Свои правила с Банки.ру</p>
+                </div>
+                <div class="offer-list__info">
+                  <div class="offer-list__row">
+                    <div class="offer-list__key">Cтавка, %</div>
+                    <div class="offer-list__value offer-list__value--strong">от 9,3%</div>
+                  </div>
+                  <div class="offer-list__row">
+                    <div class="offer-list__key">Срок</div>
+                    <div class="offer-list__value">181 дн.</div>
+                  </div>
+                  <div class="offer-list__row">
+                    <div class="offer-list__key">Сумма</div>
+                    <div class="offer-list__value">30 000—10 000 000 ₽</div>
+                  </div>
+                </div>
+                <a href="#" class="offer-list__btn">Открыть вклад</a>
+              </li>
+              <li class="offer-list__item">
+                <div class="offer-list__box">
+                  <img src="images/bank.svg" alt="bank" class="offer-list__img">
+                  <p class="offer-list__text">Свои правила с Банки.ру</p>
+                </div>
+                <div class="offer-list__info">
+                  <div class="offer-list__row">
+                    <div class="offer-list__key">Cтавка, %</div>
+                    <div class="offer-list__value offer-list__value--strong">от 9,3%</div>
+                  </div>
+                  <div class="offer-list__row">
+                    <div class="offer-list__key">Срок</div>
+                    <div class="offer-list__value">181 дн.</div>
+                  </div>
+                  <div class="offer-list__row">
+                    <div class="offer-list__key">Сумма</div>
+                    <div class="offer-list__value">30 000—10 000 000 ₽</div>
+                  </div>
+                </div>
+                <a href="#" class="offer-list__btn">Открыть вклад</a>
+              </li>
+              <li class="offer-list__item">
+                <div class="offer-list__box">
+                  <img src="images/bank.svg" alt="bank" class="offer-list__img">
+                  <p class="offer-list__text">Свои правила с Банки.ру</p>
+                </div>
+                <div class="offer-list__info">
+                  <div class="offer-list__row">
+                    <div class="offer-list__key">Cтавка, %</div>
+                    <div class="offer-list__value offer-list__value--strong">от 9,3%</div>
+                  </div>
+                  <div class="offer-list__row">
+                    <div class="offer-list__key">Срок</div>
+                    <div class="offer-list__value">181 дн.</div>
+                  </div>
+                  <div class="offer-list__row">
+                    <div class="offer-list__key">Сумма</div>
+                    <div class="offer-list__value">30 000—10 000 000 ₽</div>
+                  </div>
+                </div>
+                <a href="#" class="offer-list__btn">Открыть вклад</a>
+              </li>
+              <li class="offer-list__item">
+                <div class="offer-list__box">
+                  <img src="images/bank.svg" alt="bank" class="offer-list__img">
+                  <p class="offer-list__text">Я очень длинное название уберите …</p>
+                </div>
+                <div class="offer-list__info">
+                  <div class="offer-list__row">
+                    <div class="offer-list__key">Cтавка, %</div>
+                    <div class="offer-list__value offer-list__value--strong">от 9,3%</div>
+                  </div>
+                  <div class="offer-list__row">
+                    <div class="offer-list__key">Срок</div>
+                    <div class="offer-list__value">181 дн.</div>
+                  </div>
+                  <div class="offer-list__row">
+                    <div class="offer-list__key">Сумма</div>
+                    <div class="offer-list__value">30 000—10 000 000 ₽</div>
+                  </div>
+                </div>
+                <a href="#" class="offer-list__btn">Открыть вклад</a>
+              </li>
+            </ul>
+          </section>
+          <section class="contributions__content">
+            <h2 class="contributions__title section__title">Вклады со страховкой</h2>
+            <p class="contributions__text">On the other hand, we denounce with righteous indignation and dislike men who
+              are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire,
+            </p>
+            <ul class="offer-list">
+              <li class="offer-list__item">
+                <div class="offer-list__box">
+                  <img src="images/bank.svg" alt="bank" class="offer-list__img">
+                  <p class="offer-list__text">Свои правила с Банки.ру</p>
+                </div>
+                <div class="offer-list__info">
+                  <div class="offer-list__row">
+                    <div class="offer-list__key">Cтавка, %</div>
+                    <div class="offer-list__value offer-list__value--strong">от 9,3%</div>
+                  </div>
+                  <div class="offer-list__row">
+                    <div class="offer-list__key">Срок</div>
+                    <div class="offer-list__value">181 дн.</div>
+                  </div>
+                  <div class="offer-list__row">
+                    <div class="offer-list__key">Сумма</div>
+                    <div class="offer-list__value">30 000—10 000 000 ₽</div>
+                  </div>
+                </div>
+                <a href="#" class="offer-list__btn">Открыть вклад</a>
+              </li>
+              <li class="offer-list__item">
+                <div class="offer-list__box">
+                  <img src="images/bank.svg" alt="bank" class="offer-list__img">
+                  <p class="offer-list__text">Свои правила с Банки.ру</p>
+                </div>
+                <div class="offer-list__info">
+                  <div class="offer-list__row">
+                    <div class="offer-list__key">Cтавка, %</div>
+                    <div class="offer-list__value offer-list__value--strong">от 9,3%</div>
+                  </div>
+                  <div class="offer-list__row">
+                    <div class="offer-list__key">Срок</div>
+                    <div class="offer-list__value">181 дн.</div>
+                  </div>
+                  <div class="offer-list__row">
+                    <div class="offer-list__key">Сумма</div>
+                    <div class="offer-list__value">30 000—10 000 000 ₽</div>
+                  </div>
+                </div>
+                <a href="#" class="offer-list__btn">Открыть вклад</a>
+              </li>
+              <li class="offer-list__item">
+                <div class="offer-list__box">
+                  <img src="images/bank.svg" alt="bank" class="offer-list__img">
+                  <p class="offer-list__text">Свои правила с Банки.ру</p>
+                </div>
+                <div class="offer-list__info">
+                  <div class="offer-list__row">
+                    <div class="offer-list__key">Cтавка, %</div>
+                    <div class="offer-list__value offer-list__value--strong">от 9,3%</div>
+                  </div>
+                  <div class="offer-list__row">
+                    <div class="offer-list__key">Срок</div>
+                    <div class="offer-list__value">181 дн.</div>
+                  </div>
+                  <div class="offer-list__row">
+                    <div class="offer-list__key">Сумма</div>
+                    <div class="offer-list__value">30 000—10 000 000 ₽</div>
+                  </div>
+                </div>
+                <a href="#" class="offer-list__btn">Открыть вклад</a>
+              </li>
+              <li class="offer-list__item">
+                <div class="offer-list__box">
+                  <img src="images/bank.svg" alt="bank" class="offer-list__img">
+                  <p class="offer-list__text">Я очень длинное название уберите …</p>
+                </div>
+                <div class="offer-list__info">
+                  <div class="offer-list__row">
+                    <div class="offer-list__key">Cтавка, %</div>
+                    <div class="offer-list__value offer-list__value--strong">от 9,3%</div>
+                  </div>
+                  <div class="offer-list__row">
+                    <div class="offer-list__key">Срок</div>
+                    <div class="offer-list__value">181 дн.</div>
+                  </div>
+                  <div class="offer-list__row">
+                    <div class="offer-list__key">Сумма</div>
+                    <div class="offer-list__value">30 000—10 000 000 ₽</div>
+                  </div>
+                </div>
+                <a href="#" class="offer-list__btn">Открыть вклад</a>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </article>
+      <section class="blog">
+        <div class="container">
+          <h2 class="blog__title section__title">
+            Полезные материалы
+          </h2>
+          <div class="blog__content">
+            <ul class="blog__list">
+              <li class="blog__item">
+                <a href="#" class="blog__item-link">
+                  <img src="images/blog-img.jpg" alt="blog-img">
+                  <p class="blog__subtitle">
+                    Как открыть свой таксопарк
+                  </p>
+                  <time datetime="2024-05-20" class="blog__time">
+                    20.05.2024
+                  </time>
+                </a>
+              </li>
+              <li class="blog__item">
+                <a href="#" class="blog__item-link">
+                  <img src="images/blog-img.jpg" alt="blog-img">
+                  <p class="blog__subtitle">
+                    Как открыть ИП без посещения
+                    налоговой
+                  </p>
+                  <time datetime="2024-05-07" class="blog__time">
+                    07.05.2024
+                  </time>
+                </a>
+              </li>
+              <li class="blog__item">
+                <a href="#" class="blog__item-link">
+                  <img src="images/blog-img.jpg" alt="blog-img">
+                  <p class="blog__subtitle">
+                    Что такое гарантийное письмо и в
+                    каких случаях оно необходимо
+                  </p>
+                  <time datetime="2024-05-02" class="blog__time">
+                    02.05.2024
+                  </time>
+                </a>
+              </li>
+            </ul>
+            <ul class="blog__news">
+              <li class="blog__news-item">
+                <a href="#" class="blog__news-link">
+                  <p class="blog__news-subtitle">
+                    Не только НДФЛ: какие еще налоги затронет
+                    реформа
+                  </p>
+                  <time datetime="2024-05-29" class="blog__news-time">29.05.2024</time>
+                </a>
+              </li>
+              <li class="blog__news-item">
+                <a href="#" class="blog__news-link">
+                  <p class="blog__news-subtitle">
+                    В Bank of China ответили на сообщения о
+                    прекращении приема платежей из РФ
+                  </p>
+                  <time datetime="2024-02-21" class="blog__news-time">21.02.2024</time>
+                </a>
+              </li>
+              <li class="blog__news-item">
+                <a href="#" class="blog__news-link">
+                  <p class="blog__news-subtitle">
+                    Hyundai Motor продает свой завод в России за 10
+                    тыс. рублей
+                  </p>
+                  <time datetime="2023-12-19" class="blog__news-time">19.12.2023</time>
+                </a>
+              </li>
+              <li class="blog__news-item">
+                <a href="#" class="blog__news-link">
+                  <p class="blog__news-subtitle">
+                    Системные банки получат 256 млрд рублей для
+                    кредитования МСП
+                  </p>
+                  <time datetime="2023-12-18" class="blog__news-time">18.12.2023</time>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <a class="footer__logo" href="#">
+            <img src="images/footer-logo.svg" alt="Logo">
+          </a>
+          <p class="footer__text">Самый большой финансовый маркетплейс в России*</p>
+          <ul class="socials__list">
+            <li class="socials__item">
+              <a href="#" class="socials__link">
+                <img src="images/dzen.svg" alt="">
+              </a>
+            </li>
+            <li class="socials__item">
+              <a href="#" class="socials__link">
+                <img src="images/twitter.svg" alt="">
+              </a>
+            </li>
+            <li class="socials__item">
+              <a href="#" class="socials__link">
+                <img src="images/vk.svg" alt="">
+              </a>
+            </li>
+            <li class="socials__item">
+              <a href="#" class="socials__link">
+                <img src="images/telegram.svg" alt="">
+              </a>
+            </li>
+            <li class="socials__item">
+              <a href="#" class="socials__link">
+                <img src="images/ok.svg" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
 </body>
+
 </html>

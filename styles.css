@@ -1,0 +1,262 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #162136;
+}
+
+.wrapper {
+    /*     width: 1440px;
+    margin: 0 auto; */
+}
+
+.container {
+    max-width: 1332px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.section__title {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 125%;
+    margin-bottom: 16px;
+}
+
+/*----------------------------------------------*/
+
+.header {
+    padding: 22px 0 25px;
+    box-shadow: 0px 1px 2px 0px rgba(22, 33, 54, 0.16);
+}
+
+.header__inner {
+    display: flex;
+    gap: 0 32px;
+    align-items: flex-end;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.header__nav-list {
+    display: flex;
+    gap: 0 32px;
+}
+
+.header__nav-link {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 142.857%;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.00);
+}
+
+.nav-box {
+    display: flex;
+    gap: 0 32px;
+}
+
+/*----------------------------------------------*/
+
+.main {
+    opacity: 0.8;
+    background: #EEE;
+}
+
+/*----------------------------------------------*/
+
+.top {
+    padding-top: 65px;
+}
+
+.top__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.top__content {
+    max-width: 640px;
+}
+
+/*----------------------------------------------*/
+
+.contributions {
+    padding-top: 130px;
+}
+
+.contributions__content+.contributions__content {
+    margin-top: 64px;
+}
+
+.contributions__text {
+    max-width: 640px;
+    margin-bottom: 32px;
+}
+
+.offer-list {
+    display: flex;
+    gap: 0 32px;
+}
+
+.offer-list__item {
+    padding: 32px;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 8px 16px 0px rgba(22, 33, 54, 0.08), 0px -8px 16px 0px rgba(22, 33, 54, 0.04), 0px 16px 24px 0px rgba(22, 33, 54, 0.16);
+}
+
+.offer-list__box {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #ECEFF1;
+    padding-bottom: 16px;
+}
+
+.offer-list__text {
+    font-size: 14px;
+    max-width: 132px;
+    text-align: right;
+    line-height: 142%;
+}
+
+.offer-list__info {
+    padding-top: 16px;
+}
+
+.offer-list__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer-list__row+.offer-list__row {
+    margin-top: 16px;
+}
+
+.offer-list__key {
+    color: #687082;
+    font-size: 14px;
+    line-height: 142%;
+}
+
+.offer-list__value {
+    text-align: right;
+    font-weight: 700;
+}
+
+.offer-list__value--strong {
+    font-size: 24px;
+}
+
+.offer-list__btn {
+    display: block;
+    padding: 10px 55px 10px 56px;
+    font-size: 18px;
+    border-radius: 8px;
+    color: #fff;
+    line-height: 155.556%;
+    background: #039BE5;
+    margin-top: 32px;
+}
+
+/*----------------------------------------------*/
+
+.blog {
+    padding: 64px 0;
+}
+
+.blog__title {
+    font-weight: 500;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.00);
+    margin-bottom: 33px;
+}
+
+.blog__content {
+    padding: 48px 28px 48px 32px;
+    background-color: #fff;
+    border-radius: 14px;
+}
+
+.blog__list {
+    display: flex;
+    gap: 0 32px;
+}
+
+.blog__item {
+    border-bottom: 1px solid #ECEFF1;
+}
+
+.blog__subtitle {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.00);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 133%;
+    padding: 22px 0 16px;
+    min-height: 102px;
+}
+
+.blog__time {
+    display: block;
+    padding-bottom: 25px;
+}
+
+.blog__news {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.blog__news-item {
+    max-width: 395px;
+    border-bottom: 1px solid #ECEFF1;
+}
+
+.blog__news-link {
+    display: block;
+    padding: 25px 0;
+}
+
+.blog__news-subtitle {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.00);
+}
+
+.blog__news-time {
+    color: #687082;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.00);
+    font-size: 12px;
+    line-height: 133%;
+}
+
+/*----------------------------------------------*/
+
+.footer {
+    background: #EBF5FF;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 32px 0;
+}
+
+.footer__text {
+    color: #687082;
+    flex-grow: 1;
+    margin-left: 32px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.00);
+    font-size: 14px;
+    line-height: 114%;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.socials__list {
+    display: flex;
+    gap: 0 32px;
+    margin-right: 18px;
+}
