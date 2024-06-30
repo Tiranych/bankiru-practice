@@ -113,6 +113,10 @@ body {
     padding-bottom: 16px;
 }
 
+.panel-list__img {
+    max-width: 100px;
+}
+
 .panel-list__text {
     font-size: 14px;
     max-width: 132px;
