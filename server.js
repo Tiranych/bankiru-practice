@@ -1,16 +1,14 @@
-async function addToArr(array, urls, maxRequests) {
-    for (let curRequests = 0; curRequests < maxRequests; curRequests++) {
-        let fetchRes = fetch(urls[curRequests]);
-        array.push(fetchRes);
-    }
-}
-
 async function makeRequests(urls, maxRequests) {
     let promisesArr = [];
-    addToArr(promisesArr, urls, maxRequests);
+    for (let curRequests = 0; curRequests < maxRequests; curRequests++) {
+        let fetchRes = fetch(urls[curRequests]);
+        promisesArr.push(fetchRes);
+    }
     while (promisesArr.length != urls.length) {
-        if(Promise.race(promisesArr)) {   
-            addToArr(promisesArr, urls, maxRequests);
+        if(Promise.race(promisesArr)) {
+            let i = maxRequests;
+            promisesArr.push(fetch(urls[i]));
+            i++;
         }
     }
     return promisesArr;
