@@ -28,13 +28,13 @@ body {
 
 .header__inner {
     display: flex;
-    gap: 0 32px;
     align-items: flex-end;
 }
 
 .header__nav {
     display: flex;
     justify-content: space-between;
+    margin-left: 32px;
     flex-grow: 1;
 }
 

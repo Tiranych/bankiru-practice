@@ -31,7 +31,7 @@ card = [
         name: "Вк=айтесь, не стесняйтесь",
         logo: "images/logo.svg",
         rate: "от 9.3%",
-        period: 18,
+        period: 468,
         amount: 5000000,
         url: 'https://github.com/Tiranych/SMT'
     },
