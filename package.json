@@ -1,17 +1,14 @@
 {
-  "name": "frontend-practice",
+  "name": "react",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
-  "scripts": {
-    "build": "webpack"
-  },
+  "main": "index.jsx",
+  "scripts": {},
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "css-loader": "^7.1.2",
-    "sass": "^1.77.6",
-    "sass-loader": "^14.2.1",
+    "react": "^18.3.1",
     "style-loader": "^4.0.0",
     "webpack": "^5.92.1",
     "webpack-cli": "^5.1.4"

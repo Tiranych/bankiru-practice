@@ -16,7 +16,7 @@ panelBtn.forEach(element => {
     });
 });
 
-card = [
+cards = [
     {
         id: 'panel-1',
         name: "Вкладывайтесь, не стесняйтесь",
@@ -47,22 +47,3 @@ card = [
 
     //здесь можно добавлять сколько угодно карточек
 ];
-
-panelListItem = document.querySelectorAll('.panel-list__item');
-panelListImg = document.querySelectorAll('.panel-list__img');
-panelListText = document.querySelectorAll('.panel-list__text');
-panelListRate = document.querySelectorAll('.rate');
-panelListPeriod = document.querySelectorAll('.period');
-panelListAmount = document.querySelectorAll('.amount');
-panelListBtn = document.querySelectorAll('.panel-list__btn');
-
-for (let i = 0; i < panelListItem.length; i++) {
-    if (panelListItem[i].id == card[i].id) {
-        document.getElementById(`panel-img${i+1}`).src = card[i].logo;
-        panelListText[i].innerHTML = card[i].name;
-        panelListRate[i].innerHTML = card[i].rate;
-        panelListPeriod[i].innerHTML = card[i].period;
-        panelListAmount[i].innerHTML = card[i].amount;
-        document.getElementById(`panel-btn${i+1}`).href = card[i].url;
-    }
-}
