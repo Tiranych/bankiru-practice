@@ -4,12 +4,12 @@ async function makeRequests(urls, maxRequests) {
         let fetchRes = fetch(urls[curRequests]);
         promisesArr.push(fetchRes);
     }
+    let i = maxRequests;
     while (promisesArr.length != urls.length) {
-        if(Promise.race(promisesArr)) {
-            let i = maxRequests;
+        Promise.race(promisesArr).then (() => {
             promisesArr.push(fetch(urls[i]));
             i++;
-        }
+        })
     }
     return promisesArr;
 }
