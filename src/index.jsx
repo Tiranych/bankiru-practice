@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Main from './components/screens/main/Main.jsx';
+import App from './components/screens/App.jsx';
 import "./assets/styles/reset.css";
 
-ReactDOM.createRoot(document.getElementById('root')).render(<Main />);
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
