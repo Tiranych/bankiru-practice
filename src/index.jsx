@@ -1,9 +1,6 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import Main from './components/screens/main/Main.jsx';
+import "./assets/styles/reset.css";
 
-import { createRoot } from 'react-dom/client';
-
-function App() {
-    return <div>Hello World</div>;
-}
-
-const root = createRoot(document.getElementById('root'));
-root.render(<App />);
+ReactDOM.createRoot(document.getElementById('root')).render(<Main />);
