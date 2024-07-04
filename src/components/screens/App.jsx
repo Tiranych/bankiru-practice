@@ -1,9 +1,14 @@
 import React from 'react';
+import Header from "./header/Header.jsx"
 import Main from "./main/Main.jsx"
+import "D:/Front-End/bankiru-practice/frontend-practice/src/assets/styles/styles.css"
 
 const App = () => {
     return (
-        <Main />
+        <div>
+            <Header />
+            <Main />
+        </div>
     )
 }
 
