@@ -1,0 +1,20 @@
+.content+.content {
+    margin-top: 64px;
+}
+
+.text {
+    max-width: 640px;
+    margin-bottom: 32px;
+}
+
+@media (max-width: 900px) {
+
+    .content+.content {
+        margin-top: 32px;
+    }
+
+    .text {
+        margin-bottom: 24px;
+    }
+    
+}

@@ -1,0 +1,27 @@
+.card {
+    padding-top: 16px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row+.row {
+    margin-top: 16px;
+}
+
+.key {
+    color: #687082;
+    font-size: 14px;
+    line-height: 142%;
+}
+
+.value {
+    text-align: right;
+    font-weight: 700;
+}
+
+.value_strong {
+    font-size: 24px;
+}

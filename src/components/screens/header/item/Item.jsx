@@ -1,9 +1,10 @@
 import React from 'react';
+import * as styles from "./Item.module.css";
 
 const Item = ({text}) => {
     return (
-        <li className="header__nav-item">
-            <a className="header__nav-link" href="#">{text}</a>
+        <li>
+            <a className={styles.link} href="#">{text}</a>
         </li>
     )
 };

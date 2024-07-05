@@ -1,0 +1,28 @@
+.contributions {
+    padding-top: 130px;
+}
+
+@media (max-width: 1360px) {
+
+    .contributions {
+        padding-bottom: 34px;
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    .contributions {
+        padding-top: 32px;
+    }
+
+}
+
+@media (max-width: 550px) {
+
+    .contributions {
+        padding-top: 80px;
+        padding-bottom: 62px;
+    }
+
+}

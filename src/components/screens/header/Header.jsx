@@ -1,23 +1,24 @@
 import React from 'react';
 import Nav from './nav/Nav.jsx';
+import * as styles from "./Header.module.css";
 
-const Header = () => {
+const Header = ({props}) => {
     return (
-        <div className="header">
-            <div className="container">
-                <div className="header__inner">
-                    <a href="#" className="burger">
+        <header className={styles.header}>
+            <div className={props.container}>
+                <div className={styles.inner}>
+                    <a href="#" className={styles.burger}>
                         <span></span>
-                        <span className="middle-stick"></span>
+                        <span className={styles.midstick}></span>
                         <span></span>
                     </a>
-                    <a className="header__logo" href="#">
-                        <img src="//images/logo.svg" alt="Logo" />
+                    <a href="#">
+                        <img src="/images/logo.svg" alt="Logo" />
                     </a>
                     <Nav />
                 </div>
             </div>
-        </div>
+        </header>
     )
 };
 
