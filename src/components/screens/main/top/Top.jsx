@@ -18,7 +18,7 @@ const Top = ({props}) => {
                             mi augue a justo. Aliquam erat volutpat.
                         </p>
                     </div>
-                    <img className={styles.img} src="/images/wallet.png" alt="Wallet" />
+                    <img className={styles.img} src="./images/wallet.png" alt="Wallet" />
                 </div>
             </div>
         </section>

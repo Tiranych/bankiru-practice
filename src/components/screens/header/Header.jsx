@@ -13,7 +13,7 @@ const Header = ({props}) => {
                         <span></span>
                     </a>
                     <a href="#">
-                        <img src="/images/logo.svg" alt="Logo" />
+                        <img src="./images/logo.svg" alt="Logo" />
                     </a>
                     <Nav />
                 </div>

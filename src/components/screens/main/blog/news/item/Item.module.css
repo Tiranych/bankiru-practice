@@ -1,0 +1,20 @@
+.item {
+    max-width: 395px;
+    border-bottom: 1px solid #ECEFF1;
+}
+
+.link {
+    display: block;
+    padding: 25px 0;
+}
+
+.subtitle {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.00);
+}
+
+.time {
+    color: #687082;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.00);
+    font-size: 12px;
+    line-height: 133%;
+}

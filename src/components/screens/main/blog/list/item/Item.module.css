@@ -1,0 +1,19 @@
+.item {
+    max-width: 394px;
+    border-bottom: 1px solid #ECEFF1;
+}
+
+.subtitle {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.00);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 133%;
+    padding: 22px 0 16px;
+    min-height: 102px;
+    width: 100%;
+}
+
+.time {
+    display: block;
+    padding-bottom: 25px;
+}

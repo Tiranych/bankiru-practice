@@ -1,0 +1,23 @@
+.blog {
+    padding: 64px 0;
+}
+
+.title {
+    font-size: 32px;
+    line-height: 125%;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.00);
+    margin-bottom: 33px;
+}
+
+.content {
+    padding: 48px 28px 48px 32px;
+    background-color: #fff;
+    border-radius: 14px;
+}
+
+@media (max-width: 1360px) {
+    .blog {
+        display: none;
+    }
+}

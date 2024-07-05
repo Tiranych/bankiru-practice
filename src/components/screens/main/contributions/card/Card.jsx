@@ -10,11 +10,11 @@ const Card = () => {
             </div>
             <div className={styles.row}>
                 <div className={styles.key}>Срок</div>
-                <div className={styles.value + ' ' + styles.value_strong}>181 дн.</div>
+                <div className={styles.value}>181 дн.</div>
             </div>
             <div className={styles.row}>
                 <div className={styles.key}>Сумма</div>
-                <div className={styles.value + ' ' + styles.value_strong}>30 000—10 000 000 ₽</div>
+                <div className={styles.value}>30 000—10 000 000 ₽</div>
             </div>
         </div>
     )

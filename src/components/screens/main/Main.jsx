@@ -9,7 +9,7 @@ const Main = ({props}) => {
         <main className={styles.main}>
             <Top props={props}/>
             <Contributions props={props}/>
-            {/* <Blog /> */}
+            <Blog props={props}/>
         </main>
     )
 };
