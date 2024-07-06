@@ -6,9 +6,9 @@ const Contributions = ({ props }) => {
     return (
         <article className={styles.contributions}>
             <div className={props.container}>
-                <Content props = {props} text={["Вклад 1", "Вклад 2", "Вклад 3", "Вклад 4"]}/>
-                <Content props = {props} text={["Вклад 5", "Вклад 6", "Вклад 7", "Вклад 8"]}/>
-                <Content props = {props} text={["Вклад 9", "Вклад 10", "Вклад 11", "Вклад 12"]}/>
+                <Content props = {props} text={["Вкладывайтесь", "Большой заработок", "Выгодные проценты", "Я очень длинное название уберите …"]}/>
+                <Content props = {props} text={["Положительные отзывы", "Гарантия качества", "Множество успешных кейсов", "Работаем по всему миру"]}/>
+                <Content props = {props} text={["Круглосуточная поддержка", "И еще много интересного", "Просто и быстро", "Свои правила с Банки.ру"]}/>
             </div>
         </article>
     )

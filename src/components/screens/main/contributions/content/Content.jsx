@@ -1,6 +1,7 @@
 import React from 'react';
-import {CardList, addToCard} from "../cardlist/CardList.jsx";
+import CardList from "../cardlist/CardList.jsx";
 import * as styles from "./Content.module.css";
+import Item from '../item/Item.jsx';
 
 const Content = ({props, text}) => {
     return (
@@ -12,7 +13,7 @@ const Content = ({props, text}) => {
                 lacus
             </p>
             <CardList text={text}/>
-            <button className={styles.btn} onClick={addToCard}>Добавить карточку</button>
+            <button className={styles.btn}>Добавить карточку</button>
         </section>
     )
 };

@@ -13,8 +13,4 @@ const CardList = ({text}) => {
     )
 };
 
-const addToCard = () => {
-    
-};
-
-export {CardList, addToCard};
+export default CardList;

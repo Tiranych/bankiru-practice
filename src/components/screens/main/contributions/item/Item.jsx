@@ -5,18 +5,17 @@ import * as styles from "./Item.module.css";
 const logText = (e) => {
     e.preventDefault()
     console.log(e.target.parentNode.childNodes[0].childNodes[1].innerText)
-    /* console.log(document.querySelectorAll('#text')[3]); */
 }
 
 const Item = ({text}) => {
     return (
-        <li className={styles.item} id="panel-1">
+        <li className={styles.item} >
             <div className={styles.box}>
-                <img src="images/bank.svg" alt="bank" className={styles.img} id="panel-img1" />
-                <p className={styles.text} id='text'>{text}</p>
+                <img src="images/bank.svg" alt="bank" className={styles.img} />
+                <p className={styles.text}>{text}</p>
             </div>
             <Card />
-            <a href="#" className={styles.btn} id="panel-btn1" onClick={logText}>Открыть вклад</a>
+            <a href="#" className={styles.btn} onClick={logText}>Открыть вклад</a>
         </li>
     )
 };
