@@ -7,6 +7,19 @@
     margin-bottom: 32px;
 }
 
+.btn {
+    display: block;
+    padding: 10px 55px 10px 56px;
+    font-size: 18px;
+    border-radius: 8px;
+    color: #fff;
+    line-height: 155.556%;
+    background: #039BE5;
+    white-space: nowrap;
+    text-align: center;
+    margin: 32px auto 0;
+}
+
 @media (max-width: 900px) {
 
     .content+.content {
@@ -15,6 +28,16 @@
 
     .text {
         margin-bottom: 24px;
+    }
+    
+}
+
+@media (max-width: 550px) {
+
+    .btn {
+        padding: 8px 32.5px;
+        font-size: 16px;
+        line-height: 150%;
     }
     
 }

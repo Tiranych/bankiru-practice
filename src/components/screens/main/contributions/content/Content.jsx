@@ -1,8 +1,8 @@
 import React from 'react';
-import CardList from "../cardlist/CardList.jsx";
+import {CardList, addToCard} from "../cardlist/CardList.jsx";
 import * as styles from "./Content.module.css";
 
-const Content = ({props}) => {
+const Content = ({props, text}) => {
     return (
         <section className={styles.content}>
             <h2 className={props.title}>Вклады для души</h2>
@@ -11,7 +11,8 @@ const Content = ({props}) => {
                 leo bibendum eget. Ut sit amet commodo nunc. Phasellus hendrerit, dui quis mollis eleifend,
                 lacus
             </p>
-            <CardList />
+            <CardList text={text}/>
+            <button className={styles.btn} onClick={addToCard}>Добавить карточку</button>
         </section>
     )
 };
