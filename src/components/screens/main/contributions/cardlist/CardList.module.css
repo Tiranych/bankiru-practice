@@ -1,7 +1,7 @@
 .card__list {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin-bottom: 32px;
+    gap: 32px;
 }
 
 @media (max-width: 1360px) {
@@ -10,7 +10,6 @@
         margin: 0 auto;
         max-width: 1120px;
         grid-template-columns: repeat(3, 1fr);
-        gap: 32px;
     }
 
 }

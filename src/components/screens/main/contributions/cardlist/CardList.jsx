@@ -1,16 +1,21 @@
-import React from 'react';
-import Item from "../item/Item.jsx";
+import React  from 'react';
+import Card from "../card/Card.jsx";
 import * as styles from "./CardList.module.css";
 
-const CardList = ({text}) => {
+const CardList = ({cards}) => {
+
+    let res = [];
+
+    cards.map(card => {
+        res.push(<Card key={card.id} card={card}/>)
+    })
+
     return (
         <ul className={styles.card__list}>
-            <Item text={text[0]}/>
-            <Item text={text[1]}/>
-            <Item text={text[2]}/>
-            <Item text={text[3]}/>
+            {res}
         </ul>
     )
+
 };
 
 export default CardList;

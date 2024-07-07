@@ -1,25 +1,6 @@
-burgerBtn = document.querySelector('.burger');
-navList = document.querySelector('.header__nav-list');
-
-burgerBtn.addEventListener('click', (e) => {
-    e.preventDefault();
-    navList.classList.toggle("header__nav-list--active");
-});
-
-panelBtn = document.querySelectorAll('.panel-list__btn');
-panelText = document.querySelectorAll('.panel-list__text');
-
-panelBtn.forEach(element => {
-    element.addEventListener('click', (e) => {
-        /* e.preventDefault(); */
-        console.log(element.parentNode.firstElementChild.lastElementChild.textContent);
-    });
-});
-
 cards = [
     {
-        id: 'panel-1',
-        name: "Вкладывайтесь, не стесняйтесь",
+        name: "Вкладывайтесь",
         logo: "images/bank.svg",
         rate: "от 9.3%",
         period: 181,
@@ -27,8 +8,7 @@ cards = [
         url: 'https://github.com/Tiranych/Finsweet'
     },
     {
-        id: 'panel-2',
-        name: "Вк=айтесь, не стесняйтесь",
+        name: "Большой заработок",
         logo: "images/logo.svg",
         rate: "от 9.3%",
         period: 468,
@@ -36,14 +16,83 @@ cards = [
         url: 'https://github.com/Tiranych/SMT'
     },
     {
-        id: 'panel-3',
-        name: "Вкладесь, не стесняйтесь",
+        name: "Выгодные проценты",
         logo: "./images/logo.svg",
         rate: "от 9.3%",
         period: 11,
         amount: 5000000,
         url: 'https://github.com/Tiranych/Lease-cars'
     },
-
-    //здесь можно добавлять сколько угодно карточек
+    {
+        name: "Я очень длинное название уберите …",
+        logo: "./images/logo.svg",
+        rate: "от 9.3%",
+        period: 11,
+        amount: 5000000,
+        url: 'https://github.com/Tiranych/Lease-cars'
+    },
+    {
+        name: "Положительные отзывы",
+        logo: "./images/logo.svg",
+        rate: "от 9.3%",
+        period: 11,
+        amount: 5000000,
+        url: 'https://github.com/Tiranych/Lease-cars'
+    },
+    {
+        name: "Гарантия качества",
+        logo: "./images/logo.svg",
+        rate: "от 9.3%",
+        period: 11,
+        amount: 5000000,
+        url: 'https://github.com/Tiranych/Lease-cars'
+    },
+    {
+        name: "Множество успешных кейсов",
+        logo: "./images/logo.svg",
+        rate: "от 9.3%",
+        period: 11,
+        amount: 5000000,
+        url: 'https://github.com/Tiranych/Lease-cars'
+    },
+    {
+        name: "Работаем по всему миру",
+        logo: "./images/logo.svg",
+        rate: "от 9.3%",
+        period: 11,
+        amount: 5000000,
+        url: 'https://github.com/Tiranych/Lease-cars'
+    },
+    {
+        name: "Круглосуточная поддержка",
+        logo: "./images/logo.svg",
+        rate: "от 9.3%",
+        period: 11,
+        amount: 5000000,
+        url: 'https://github.com/Tiranych/Lease-cars'
+    },
+    {
+        name: "И еще много интересного",
+        logo: "./images/logo.svg",
+        rate: "от 9.3%",
+        period: 11,
+        amount: 5000000,
+        url: 'https://github.com/Tiranych/Lease-cars'
+    },
+    {
+        name: "Просто и быстро",
+        logo: "./images/logo.svg",
+        rate: "от 9.3%",
+        period: 11,
+        amount: 5000000,
+        url: 'https://github.com/Tiranych/Lease-cars'
+    },
+    {
+        name: "Свои правила с Банки.ру",
+        logo: "./images/logo.svg",
+        rate: "от 9.3%",
+        period: 11,
+        amount: 5000000,
+        url: 'https://github.com/Tiranych/Lease-cars'
+    },
 ];

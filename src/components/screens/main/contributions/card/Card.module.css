@@ -1,3 +1,31 @@
+.item {
+    max-width: 304px;
+    padding: 32px;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 8px 16px 0px rgba(22, 33, 54, 0.08), 0px -8px 16px 0px rgba(22, 33, 54, 0.04), 0px 16px 24px 0px rgba(22, 33, 54, 0.16);
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 60px;
+    border-bottom: 2px solid #ECEFF1;
+    padding-bottom: 16px;
+}
+
+.img {
+    max-width: 100px;
+}
+
+.text {
+    font-size: 14px;
+    max-width: 132px;
+    text-align: end;
+    line-height: 142%;
+}
+
 .card {
     padding-top: 16px;
 }
@@ -24,4 +52,60 @@
 
 .value_strong {
     font-size: 24px;
+}
+
+.btn {
+    display: block;
+    padding: 10px 55px 10px 56px;
+    font-size: 18px;
+    border-radius: 8px;
+    color: #fff;
+    line-height: 155.556%;
+    background: #039BE5;
+    margin-top: 32px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+@media (max-width: 1360px) {
+
+    .item {
+        width: 100%;
+        max-width: 352px;
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    .item {
+        padding: 24px;
+    }
+
+}
+
+@media (max-width: 550px) {
+
+    .item {
+        padding: 16px;
+    }
+
+    .box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text {
+        width: 100%;
+        max-width: none;
+        text-align: center;
+        font-size: 12px;
+        line-height: 133.333%;
+    }
+
+    .btn {
+        padding: 8px 32.5px;
+        font-size: 16px;
+        line-height: 150%;
+    }
 }
